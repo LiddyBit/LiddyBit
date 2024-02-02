@@ -41,38 +41,20 @@ li {
     margin-bottom: 10px;
 }
 
-a {
-    color: #3498db; /* Blue */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #222; /* Darker black */
-    color: #ecf0f1;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
-    border-radius: 0 0 10px 10px;
 }
 
-/* Flexbox styles for sections starting from "Resume" */
-.flex-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-item {
-    box-sizing: border-box;
-    margin-bottom: 20px;
-}
-
-.flex-item img {
-    max-width: 100%;
-    border-radius: 10px;
+@keyframes rainbow {
+    0% { color: #c0392b; }
+    20% { color: #e74c3c; }
+    40% { color: #f39c12; }
+    60% { color: #27ae60; }
+    80% { color: #3498db; }
+    100% { color: #8e44ad; }
 }
