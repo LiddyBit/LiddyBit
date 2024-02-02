@@ -58,3 +58,115 @@ footer {
     80% { color: #3498db; }
     100% { color: #8e44ad; }
 }
+
+@keyframes colorCycle {
+    0% { color: #c0392b; }
+    20% { color: #e74c3c; }
+    40% { color: #f39c12; }
+    60% { color: #27ae60; }
+    80% { color: #3498db; }
+    100% { color: #8e44ad; }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+#spin-paragraph {
+    animation: spin 5s infinite linear;
+}
+
+#spin-paragraph1 {
+    animation: spin 10s infinite linear;
+}
+
+#spin-paragraph2 {
+    animation: spin 1s infinite linear;
+}
+
+#spin-paragraph3 {
+    animation: spin 5s infinite linear;
+}
+
+@keyframes scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+.scaled-element {
+    animation: scale 3s infinite ease-in-out;
+}
+
+.scaled-element1 {
+    animation: scale 1s infinite ease-in-out;
+}
+
+@keyframes scale2 {
+    0% { transform: scale(1); }
+    50% { transform: scale(500); }
+    100% { transform: scale(1); }
+}
+
+.scaled-element2 {
+    animation: scale2 30s infinite ease-in-out;
+}
+.scaled-element3 {
+    animation: scale2 50s infinite ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.fading-element {
+    animation: fadeInOut 3s infinite ease-in-out;
+}
+.fading-element1 {
+    animation: fadeInOut 5s infinite ease-in-out;
+}
+@keyframes fadeInOut2 {
+    0%, 100% { opacity: .5; }
+    50% { opacity: 1; }
+}
+.fading-element2 {
+    animation: fadeInOut2 3s infinite ease-in-out;
+}
+.fading-element3 {
+    animation: fadeInOut2 5s infinite ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25%, 75% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+}
+
+.shaking-element {
+    animation: shake 3s infinite ease-in-out;
+}
+.shaking-element1 {
+    animation: shake 1s infinite ease-in-out;
+}
+.shaking-element2 {
+    animation: shake .1s infinite ease-in-out;
+}
+.shaking-element3 {
+    animation: shake .0000004s infinite ease-in-out;
+}
+
+@keyframes pulsate {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+.pulsating-element {
+    animation: pulsate 3s infinite ease-in-out;
+}
+
+
+
